@@ -1,1 +1,1 @@
-This is project.
+This is project
