@@ -7,3 +7,7 @@ if (dog == "Joson")
     console.log("This is dog")
 }
 
+if (dog != "Joson")
+{
+    console.log("This is no hope")
+}
