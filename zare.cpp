@@ -23,7 +23,7 @@ int main() {
             sum += arr[i];
 
         }
-
+        
         if (max < arr[i]) {
             max = arr[i];
         }
