@@ -8,7 +8,7 @@ struct Student
 
 void print(struct Student student)
 {
-    printf("Name: %s\n", student.name);
+    printf("%s Name:%s %s\n", "**", student.name, "**");
 }
 
 int main()
@@ -16,12 +16,14 @@ int main()
     struct Student students[3];
     strcpy(students[0].name, "Phong");
     strcpy(students[1].name, "Lan");
-    strcpy(students[2].name, "Yen");
+    strcpy(students[2].name, "Nguyen");
 
+    printf("******************\n");
     for(int i=0; i<3; i++)
-    {
+    {   
         print(students[i]);
     }
+    printf("*****************");
 
     return 0;
 }
